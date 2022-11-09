@@ -17,7 +17,7 @@ class BinarySearchTree {
   insert(value) {
     let node = new Node(value);
     if (this.root === null) {
-      this.root = value;
+      this.root = node;
       return this;
     } else {
       let current = this.root;
@@ -126,4 +126,4 @@ let BFS = bst.BreadthFirstSearch();
 let DFSPreOrder = bst.DFSPreOrder();
 let DFSPostOrder = bst.DFSPostOrder();
 let DFSInOrder = bst.DFSInOrder();
-console.log(DFSInOrder);
+console.log(BFS);
