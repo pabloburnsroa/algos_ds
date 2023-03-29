@@ -1,0 +1,3 @@
+function correctCapitalization(s: string) {
+  
+}
