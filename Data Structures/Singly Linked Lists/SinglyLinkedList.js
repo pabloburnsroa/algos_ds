@@ -172,7 +172,7 @@ class SinglyLinkedList {
     this.tail = node;
   }
 
-  // PRINT LINKED LIST - HELPER FUNCTION
+  // PRINT LINKED LIST - HELPER FUNCTION 
   print() {
     let arr = [];
     let current = this.head;
