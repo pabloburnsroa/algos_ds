@@ -1,6 +1,17 @@
 /*
  BST - Searching is quick as sorted
+
+
+ What is a BST?/Tree
+ Data structure consisting of nodes in parent/child relationship 
+ Branches 
+
+ HTML DOM - elements - nested elements - parent/child 
+ 
  */
+
+
+
 
 class Node {
   constructor(value) {
